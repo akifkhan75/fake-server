@@ -1,12 +1,15 @@
-[
-  {
-    "id": "123456789",
-    "name": "General Chat",
-    "creator": "alice"
-  },
-  {
-    "id": "987654321",
-    "name": "Tech Talk",
-    "creator": "bob"
-  }
-]
+{
+  "rooms": [
+    {
+      "id": "123456789",
+      "name": "General Discussion",
+      "creator": "alice"
+    },
+    {
+      "id": "987654321",
+      "name": "Tech Talk",
+      "creator": "bob"
+    }
+  ],
+  "users": ["alice", "bob"]
+}
